@@ -40,6 +40,7 @@ Stack Trace:
 #3 C:\xampp\htdocs\dev_mgmt\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(LoginController), Object(CakeRequest), Object(CakeResponse))
 #4 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #5 {main}
+<<<<<<< HEAD
 2013-09-04 23:05:01 Error: [MissingViewException] View file "C:\xampp\htdocs\dev_mgmt\app\View\dashboard\index.ctp" is missing.
 Exception Attributes: array (
   'file' => 'C:\\xampp\\htdocs\\dev_mgmt\\app\\View\\dashboard\\index.ctp',
@@ -7919,10 +7920,14 @@ Stack Trace:
 #0 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
 2013-09-05 01:00:18 Error: [MissingControllerException] Controller class Index.htmlController could not be found.
+=======
+2013-09-04 19:01:55 Error: [MissingControllerException] Controller class Index.htmlController could not be found.
+>>>>>>> 680d39f074d3e9f855393895eae3d9ff72839fa6
 Exception Attributes: array (
   'class' => 'Index.htmlController',
   'plugin' => NULL,
 )
+<<<<<<< HEAD
 Request URL: /dev_mgmt/index.html?uemail=nishant3001%40s.com&upw=asasa
 Stack Trace:
 #0 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
@@ -8176,6 +8181,9 @@ Exception Attributes: array (
   'plugin' => NULL,
 )
 Request URL: /dev_mgmt/font/fontawesome-webfont.ttf?v=3.0.1
+=======
+Request URL: /dev_mgmt/index.html?uemail=er.sunny75%40gmail.com&upw=jaann6666&remember=on
+>>>>>>> 680d39f074d3e9f855393895eae3d9ff72839fa6
 Stack Trace:
 #0 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}

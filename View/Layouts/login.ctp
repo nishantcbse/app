@@ -7,33 +7,40 @@
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 	<!-- Apple devices fullscreen -->
 	<meta names="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+            <title>Login</title>
+            <?php echo $this->Html->css('bootstrap.min.css'); ?>
+            <?php echo $this->Html->css('bootstrap-responsive.min.css'); ?>
+            <?php echo $this->Html->css('plugins/icheck/all.css'); ?>
+            <?php echo $this->Html->css('style.css'); ?>
+            <?php echo $this->Html->css('themes.css'); ?>
 	
-	<title>Login</title>
-
-	<!-- Bootstrap -->
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<!-- Bootstrap responsive -->
+<!--<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/bootstrap-responsive.min.css">
-	<!-- icheck -->
 	<link rel="stylesheet" href="css/plugins/icheck/all.css">
-	<!-- Theme CSS -->
 	<link rel="stylesheet" href="css/style.css">
-	<!-- Color CSS -->
-	<link rel="stylesheet" href="css/themes.css">
-
-
+	<link rel="stylesheet" href="css/themes.css"-->>
 	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
-	<!-- Nice Scroll -->
+	<?php echo $this->Html->script('jquery.min.js'); ?>
+	<?php echo $this->Html->script('plugins/nicescroll/jquery.nicescroll.min.js'); ?>
+    <?php echo $this->Html->script('plugins/validation/jquery.validate.min.js'); ?>
+    <?php echo $this->Html->script('plugins/validation/additional-methods.min.js'); ?>
+    <?php echo $this->Html->script('plugins/icheck/jquery.icheck.min.js'); ?>
+    <?php echo $this->Html->script('bootstrap.min.js'); ?>
+    <?php echo $this->Html->script('eakroko.js'); ?>
+	
+	
+	
+	<!--<script src="js/jquery.min.js"></script>
+	
 	<script src="js/plugins/nicescroll/jquery.nicescroll.min.js"></script>
-	<!-- Validation -->
+	
 	<script src="js/plugins/validation/jquery.validate.min.js"></script>
 	<script src="js/plugins/validation/additional-methods.min.js"></script>
-	<!-- icheck -->
+	
 	<script src="js/plugins/icheck/jquery.icheck.min.js"></script>
-	<!-- Bootstrap -->
+	
 	<script src="js/bootstrap.min.js"></script>
-	<script src="js/eakroko.js"></script>
+	<script src="js/eakroko.js"></script>-->
 
 	<!--[if lte IE 9]>
 		<script src="js/plugins/placeholder/jquery.placeholder.min.js"></script>
