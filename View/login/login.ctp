@@ -19,7 +19,7 @@
 					</div>
 					<input type="submit" value="Sign me in" class='btn btn-primary'>
 				</div>
-			</form>
+			</form>       
 			<div class="forget">
 				<a href="#"><span>Forgot password?</span></a>
 			</div>
