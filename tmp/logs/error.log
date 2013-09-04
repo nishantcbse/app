@@ -8187,3 +8187,25 @@ Request URL: /dev_mgmt/index.html?uemail=er.sunny75%40gmail.com&upw=jaann6666&re
 Stack Trace:
 #0 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2013-09-05 02:17:06 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[42000] [1049] Unknown database \'dev_mgmt\'',
+  'enabled' => true,
+)
+Request URL: /dev_mgmt/
+Stack Trace:
+#0 C:\xampp\htdocs\dev_mgmt\lib\Cake\Model\Datasource\DboSource.php(262): Mysql->connect()
+#1 C:\xampp\htdocs\dev_mgmt\lib\Cake\Model\ConnectionManager.php(107): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\dev_mgmt\lib\Cake\Model\Model.php(3288): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\dev_mgmt\lib\Cake\Model\Model.php(1107): Model->setDataSource('default')
+#4 C:\xampp\htdocs\dev_mgmt\lib\Cake\Model\Model.php(3310): Model->setSource('users')
+#5 C:\xampp\htdocs\dev_mgmt\lib\Cake\Model\Model.php(2750): Model->getDataSource()
+#6 C:\xampp\htdocs\dev_mgmt\lib\Cake\Model\Model.php(2722): Model->_readDataSource('all', Array)
+#7 C:\xampp\htdocs\dev_mgmt\app\Controller\LoginController.php(12): Model->find('all')
+#8 [internal function]: LoginController->login()
+#9 C:\xampp\htdocs\dev_mgmt\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(LoginController), Array)
+#10 C:\xampp\htdocs\dev_mgmt\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\dev_mgmt\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(LoginController), Object(CakeRequest), Object(CakeResponse))
+#12 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
