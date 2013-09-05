@@ -8227,3 +8227,328 @@ Request URL: /my/dev_mgmt/font/fontawesome-webfont.ttf?v=3.0.1
 Stack Trace:
 #0 C:\xampp\htdocs\my\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2013-09-05 03:38:05 Error: [MissingControllerException] Controller class FontController could not be found.
+Exception Attributes: array (
+  'class' => 'FontController',
+  'plugin' => NULL,
+)
+Request URL: /dev_mgmt/font/fontawesome-webfont.woff?v=3.0.1
+Stack Trace:
+#0 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-05 03:38:06 Error: [MissingControllerException] Controller class FontController could not be found.
+Exception Attributes: array (
+  'class' => 'FontController',
+  'plugin' => NULL,
+)
+Request URL: /dev_mgmt/font/fontawesome-webfont.ttf?v=3.0.1
+Stack Trace:
+#0 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-05 04:45:17 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /dev_mgmt/user
+Stack Trace:
+#0 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-05 04:46:17 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /dev_mgmt/user
+Stack Trace:
+#0 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-05 04:46:32 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /dev_mgmt/user
+Stack Trace:
+#0 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-05 04:47:59 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /dev_mgmt/user/index
+Stack Trace:
+#0 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-05 04:48:39 Error: [MissingViewException] View file "C:\xampp\htdocs\dev_mgmt\app\View\user\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\xampp\\htdocs\\dev_mgmt\\app\\View\\user\\index.ctp',
+)
+Request URL: /dev_mgmt/user
+Stack Trace:
+#0 C:\xampp\htdocs\dev_mgmt\lib\Cake\View\View.php(459): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\dev_mgmt\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\dev_mgmt\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 C:\xampp\htdocs\dev_mgmt\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UserController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-09-05 04:52:55 Error: [MissingViewException] View file "C:\xampp\htdocs\dev_mgmt\app\View\user\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\xampp\\htdocs\\dev_mgmt\\app\\View\\user\\index.ctp',
+)
+Request URL: /dev_mgmt/user
+Stack Trace:
+#0 C:\xampp\htdocs\dev_mgmt\lib\Cake\View\View.php(459): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\dev_mgmt\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\dev_mgmt\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 C:\xampp\htdocs\dev_mgmt\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UserController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-09-05 04:53:06 Error: [MissingActionException] Action userController::profile() could not be found.
+Exception Attributes: array (
+  'controller' => 'userController',
+  'action' => 'profile',
+)
+Request URL: /dev_mgmt/user/profile
+Stack Trace:
+#0 C:\xampp\htdocs\dev_mgmt\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\dev_mgmt\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UserController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-05 04:54:26 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /dev_mgmt/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-05 04:56:37 Error: [MissingActionException] Action userController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'userController',
+  'action' => 'login',
+)
+Request URL: /dev_mgmt/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\dev_mgmt\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\dev_mgmt\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-05 04:58:21 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /dev_mgmt/users/profile
+Stack Trace:
+#0 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-05 04:59:37 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /dev_mgmt/users/profile
+Stack Trace:
+#0 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-05 04:59:43 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /dev_mgmt/users
+Stack Trace:
+#0 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-05 04:59:49 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /dev_mgmt/users
+Stack Trace:
+#0 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-05 05:00:15 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /dev_mgmt/users
+Stack Trace:
+#0 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-05 05:00:20 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /dev_mgmt/users
+Stack Trace:
+#0 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-05 05:04:36 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /dev_mgmt/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-05 05:05:19 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /dev_mgmt/users
+Stack Trace:
+#0 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-05 05:05:24 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /dev_mgmt/users
+Stack Trace:
+#0 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-05 05:05:26 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /dev_mgmt/users
+Stack Trace:
+#0 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-05 05:05:27 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /dev_mgmt/users
+Stack Trace:
+#0 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-05 05:05:28 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /dev_mgmt/users
+Stack Trace:
+#0 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-05 05:05:28 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /dev_mgmt/users
+Stack Trace:
+#0 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-05 05:05:28 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /dev_mgmt/users
+Stack Trace:
+#0 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-05 05:05:28 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /dev_mgmt/users
+Stack Trace:
+#0 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-05 05:05:28 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /dev_mgmt/users
+Stack Trace:
+#0 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-05 05:05:28 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /dev_mgmt/users
+Stack Trace:
+#0 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-05 05:05:28 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /dev_mgmt/users
+Stack Trace:
+#0 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-05 05:05:28 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /dev_mgmt/users
+Stack Trace:
+#0 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-05 05:05:28 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /dev_mgmt/users
+Stack Trace:
+#0 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-05 05:05:28 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /dev_mgmt/users
+Stack Trace:
+#0 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-05 05:05:28 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /dev_mgmt/users
+Stack Trace:
+#0 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-05 05:05:28 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /dev_mgmt/users
+Stack Trace:
+#0 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-05 05:05:29 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /dev_mgmt/users
+Stack Trace:
+#0 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
