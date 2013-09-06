@@ -32,4 +32,19 @@ App::uses('Controller', 'Controller');
  * @link		http://book.cakephp.org/2.0/en/controllers.html#the-app-controller
  */
 class AppController extends Controller {
+	public $components  = array('RequestHandler','Email','Auth','Session','Cookie');
+	var $helpers        = array('Html', 'Form','Paginator','Js','JqueryEngine','Session');
+	var $uses           = array ('User');
+	function beforeFilter(){ 
+		$this->Auth->allow('getparent','rediretComingUrl');
+	}
+	function rediretComingUrl(){
+		if($this->Session->read('currentUrl')){	//checking  if it coming from other pages or not							
+			$cUrl = Configure::read("WEB_URL_resent").$this->Session->read('currentUrl');
+			$this->redirect($cUrl);
+		}else{
+			$this->redirect(array('controller'=>'users','action'=>'index'));
+		}
+	
+	}
 }

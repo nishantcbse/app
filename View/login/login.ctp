@@ -2,24 +2,28 @@
 		<h1><a href="index.html"><img src="img/logo-big.png" alt="" class='retina-ready' width="59" height="49">FLAT</a></h1>
 		<div class="login-body">
 			<h2>SIGN IN</h2>
-			<form action="index.html" method='get' class='form-validate' id="test">
-				<div class="control-group">
+			<!--<form action="index.html" method='get' class='form-validate' id="test">-->
+				<?php echo $this->Form->create('Post',array('url'=>array('controller'=>'login','action'=>'login'),'class'=>'form-validate'));?>
+                <div class="control-group">
 					<div class="email controls">
-						<input type="text" name='uemail' placeholder="Email address" class='input-block-level' data-rule-required="true" data-rule-email="true">
-					</div>
+						<!--<input type="text" name='uemail' placeholder="Email address" class='input-block-level' data-rule-required="true" data-rule-email="true">-->
+					<?php echo $this->Form->input('username',array('type'=>'text','placeholder'=>'Username or email','label'=>false,'class'=>'input-block-level','data-rule-required'=>true,'data-rule-email'=>true)); ?>
+                    </div>
 				</div>
 				<div class="control-group">
 					<div class="pw controls">
-						<input type="password" name="upw" placeholder="Password" class='input-block-level' data-rule-required="true">
-					</div>
+						<!--<input type="password" name="upw" placeholder="Password" class='input-block-level' data-rule-required="true">-->
+					<?php echo $this->Form->input('password',array('type'=>'password','label'=>false,'placeholder'=>'Password','class'=>'input-block-level','data-rule-required'=>true)); ?>
+                    </div>
 				</div>
 				<div class="submit">
 					<div class="remember">
-						<input type="checkbox" name="remember" class='icheck-me' data-skin="square" data-color="blue" id="remember"> <label for="remember">Remember me</label>
+						<?php echo $this->Form->checkbox('rememberme',array('type'=>'checkbox','label'=>'Remember me','value'=>'0','class'=>'icheck-me','data-skin'=>'square','data-color'=>'blue')); ?>
+                        <!--<input type="checkbox" name="remember" class='icheck-me' data-skin="square" data-color="blue" id="remember">--> <label for="remember">Remember me</label>
 					</div>
 					<input type="submit" value="Sign me in" class='btn btn-primary'>
 				</div>
-			</form>       
+		  <?php echo $this->Form->end(); ?>  
 			<div class="forget">
 				<a href="#"><span>Forgot password?</span></a>
 			</div>

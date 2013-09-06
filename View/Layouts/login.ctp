@@ -18,7 +18,7 @@
 	<link rel="stylesheet" href="css/bootstrap-responsive.min.css">
 	<link rel="stylesheet" href="css/plugins/icheck/all.css">
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/themes.css"-->>
+	<link rel="stylesheet" href="css/themes.css"-->
 	<!-- jQuery -->
 	<?php echo $this->Html->script('jquery.min.js'); ?>
 	<?php echo $this->Html->script('plugins/nicescroll/jquery.nicescroll.min.js'); ?>

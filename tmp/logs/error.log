@@ -49,3 +49,251 @@ Request URL: /dev_mgmt/index.html?uemail=er.sunny75%40gmail.com&upw=jaann6666&re
 Stack Trace:
 #0 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2013-09-05 17:05:24 Error: [MissingControllerException] Controller class LoginsController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginsController',
+  'plugin' => NULL,
+)
+Request URL: /dev_mgmt/logins/login
+Stack Trace:
+#0 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-05 17:06:50 Error: [MissingControllerException] Controller class LoginsController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginsController',
+  'plugin' => NULL,
+)
+Request URL: /dev_mgmt/logins/login
+Stack Trace:
+#0 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-05 17:07:28 Error: [MissingControllerException] Controller class LoginsController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginsController',
+  'plugin' => NULL,
+)
+Request URL: /dev_mgmt/logins/login
+Stack Trace:
+#0 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-05 17:07:37 Error: [MissingControllerException] Controller class LoginsController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginsController',
+  'plugin' => NULL,
+)
+Request URL: /dev_mgmt/logins/login
+Stack Trace:
+#0 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-05 17:16:36 Error: [MissingControllerException] Controller class LoginsController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginsController',
+  'plugin' => NULL,
+)
+Request URL: /dev_mgmt/logins/login
+Stack Trace:
+#0 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-05 17:21:17 Error: [MissingControllerException] Controller class LoginsController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginsController',
+  'plugin' => NULL,
+)
+Request URL: /dev_mgmt/logins/login
+Stack Trace:
+#0 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-05 18:05:22 Error: [MissingControllerException] Controller class LoginController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginController',
+  'plugin' => NULL,
+)
+Request URL: /dev_mgmt/
+Stack Trace:
+#0 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-05 18:05:50 Error: [MissingControllerException] Controller class LoginsController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginsController',
+  'plugin' => NULL,
+)
+Request URL: /dev_mgmt/
+Stack Trace:
+#0 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-05 18:05:54 Error: [MissingControllerException] Controller class LoginsController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginsController',
+  'plugin' => NULL,
+)
+Request URL: /dev_mgmt/
+Stack Trace:
+#0 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-05 18:06:04 Error: [MissingControllerException] Controller class LoginsController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginsController',
+  'plugin' => NULL,
+)
+Request URL: /dev_mgmt/login
+Stack Trace:
+#0 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-05 19:05:56 Error: Fatal Error (1): Call to undefined method AppController::rediretComingUrl() in [C:\xampp\htdocs\dev_mgmt\app\Controller\LoginController.php, line 35]
+2013-09-05 19:05:56 Error: [FatalErrorException] Call to undefined method AppController::rediretComingUrl()
+Request URL: /dev_mgmt/
+Stack Trace:
+#0 C:\xampp\htdocs\dev_mgmt\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\xampp\htdocs...', 35)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\xampp\htdocs...', 35, Array)
+#2 C:\xampp\htdocs\dev_mgmt\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\xampp\htdocs...', 35, Array)
+#3 C:\xampp\htdocs\dev_mgmt\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-05 19:11:52 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /dev_mgmt/users
+Stack Trace:
+#0 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-05 19:13:04 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /dev_mgmt/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-05 19:14:14 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /dev_mgmt/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-05 19:14:54 Error: [MissingActionException] Action loginController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'loginController',
+  'action' => 'img',
+)
+Request URL: /dev_mgmt/login/img/logo-big.png
+Stack Trace:
+#0 C:\xampp\htdocs\dev_mgmt\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\dev_mgmt\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(LoginController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-05 19:14:54 Error: [MissingActionException] Action loginController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'loginController',
+  'action' => 'img',
+)
+Request URL: /dev_mgmt/login/img/favicon.ico
+Stack Trace:
+#0 C:\xampp\htdocs\dev_mgmt\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\dev_mgmt\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(LoginController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-05 19:14:54 Error: [MissingActionException] Action loginController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'loginController',
+  'action' => 'img',
+)
+Request URL: /dev_mgmt/login/img/favicon.ico
+Stack Trace:
+#0 C:\xampp\htdocs\dev_mgmt\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\dev_mgmt\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(LoginController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-05 19:23:17 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /dev_mgmt/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-05 20:03:49 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /dev_mgmt/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-05 20:04:23 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /dev_mgmt/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-05 20:04:40 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /dev_mgmt/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-05 20:06:39 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /dev_mgmt/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-05 21:12:28 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /dev_mgmt/users
+Stack Trace:
+#0 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-05 21:13:24 Error: [MissingViewException] View file "C:\xampp\htdocs\dev_mgmt\app\View\login\logout.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\xampp\\htdocs\\dev_mgmt\\app\\View\\login\\logout.ctp',
+)
+Request URL: /dev_mgmt/login/logout
+Stack Trace:
+#0 C:\xampp\htdocs\dev_mgmt\lib\Cake\View\View.php(459): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\dev_mgmt\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\dev_mgmt\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 C:\xampp\htdocs\dev_mgmt\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(LoginController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-09-05 21:13:42 Error: [MissingActionException] Action loginController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'loginController',
+  'action' => 'img',
+)
+Request URL: /dev_mgmt/login/img/logo-big.png
+Stack Trace:
+#0 C:\xampp\htdocs\dev_mgmt\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\dev_mgmt\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(LoginController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-09-05 21:13:58 Error: [MissingActionException] Action loginController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'loginController',
+  'action' => 'img',
+)
+Request URL: /dev_mgmt/login/img/logo-big.png
+Stack Trace:
+#0 C:\xampp\htdocs\dev_mgmt\lib\Cake\Routing\Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\dev_mgmt\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(LoginController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
