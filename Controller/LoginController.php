@@ -1,19 +1,23 @@
 <?php //die("here");
-class LoginController extends AppController {//class stsrts//
+class LoginController extends AppController {
 	public $name 		= 'login';
 	public $components  = array('RequestHandler','Email','Auth','Session','Cookie');
 	var $helpers        = array('Html', 'Form','Paginator','Js','JqueryEngine','Session');
 	var $uses         = array ('User');
-	function beforeFilter(){//func starts beforeFilter//
+	
+	function beforeFilter(){
 		$this->Auth->allow('login','logout');
-	}//func ends beforeFilter//
+	}
 
-	public function login() {//func stsrts login//
-		debug($this->Session->read('Auth'));
-		//debug($this->Cookie->read());
+
+function beforeFilter(){
+	$this->Auth->allow('login')
+	;}
+
+	public function login(){
+
 		$this->layout='login';
 		if($this->request->is('post')){//checking post//
-			//debug($this->data['Post']['username']);
 		if (empty($this->data['Post']['username']) || empty($this->data['Post']['username'])) {
 					$this->Session->setFlash("Sorry, the username or password is not valid, please try again");
 					$this->redirect(array('controller'=>'login','action'=> 'login'));
@@ -25,7 +29,7 @@ class LoginController extends AppController {//class stsrts//
 							'conditions'=>array(array('OR'=>array('User.email'=>$this->data['Post']['username'],'User.username'=>$this->data['Post']['username'])),'User.password'=>($this->data['Post']['password']))));
 					if(count($validAccount)){			   
 						$user = $this->Auth->login($Auth);
-						// after login checking  rememberme functionality
+			// after login checking  rememberme functionality
 						if($this->data['Post']['rememberme'] == '1'){
 								$cookie = array();  
 								$cookie['username'] = $this->data['Post']['username'];  
