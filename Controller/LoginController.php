@@ -8,15 +8,10 @@ class LoginController extends AppController {
 	function beforeFilter(){
 		$this->Auth->allow('login','logout');
 	}
-
-
-function beforeFilter(){
-	$this->Auth->allow('login')
-	;}
-
 	public function login(){
+	debug($this->Session->read('Auth'));
 
-		$this->layout='login';
+	$this->layout='login';
 		if($this->request->is('post')){//checking post//
 		if (empty($this->data['Post']['username']) || empty($this->data['Post']['username'])) {
 					$this->Session->setFlash("Sorry, the username or password is not valid, please try again");
@@ -38,7 +33,7 @@ function beforeFilter(){
 							}
 							if ($this->Auth->user()) {//check auth user
 								$this->Session->write('Auth',$this->Session->read('Auth.User'));
-								parent::rediretComingUrl();
+								$this->redirect(array('controller'=>'dashboard','action'=>'index'));
 							
 								}
 							}else{

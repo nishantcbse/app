@@ -5,8 +5,8 @@ class DashboardController extends AppController {
 	var $helpers        = array('Html', 'Form','Paginator','Js','JqueryEngine','Session');
 	//var $uses         = array ('User','Emailnotification','Userprofile','Account','Prediction','Category');
 function beforeFilter(){
-	$this->Auth->allow('index')
-	;}
+	$this->Auth->allow();
+	}
 
 	public function index() {
 		$this->layout='front';

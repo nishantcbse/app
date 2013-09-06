@@ -297,3 +297,40 @@ Stack Trace:
 #1 C:\xampp\htdocs\dev_mgmt\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(LoginController), Object(CakeRequest), Object(CakeResponse))
 #2 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2013-09-06 18:02:15 Error: Fatal Error (64): Cannot redeclare LoginController::beforeFilter() in [C:\xampp\htdocs\dev_mgmt\app\Controller\LoginController.php, line 13]
+2013-09-06 18:02:15 Error: [FatalErrorException] Cannot redeclare LoginController::beforeFilter()
+Request URL: /dev_mgmt/
+Stack Trace:
+#0 C:\xampp\htdocs\dev_mgmt\lib\Cake\Error\ErrorHandler.php(205): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\xampp\htdocs...', 13)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\xampp\htdocs...', 13, Array)
+#2 C:\xampp\htdocs\dev_mgmt\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\xampp\htdocs...', 13, Array)
+#3 C:\xampp\htdocs\dev_mgmt\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-06 18:04:54 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /dev_mgmt/users
+Stack Trace:
+#0 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-06 18:08:32 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /dev_mgmt/users
+Stack Trace:
+#0 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-06 18:17:21 Error: [MissingControllerException] Controller class More-userprofile.htmlController could not be found.
+Exception Attributes: array (
+  'class' => 'More-userprofile.htmlController',
+  'plugin' => NULL,
+)
+Request URL: /dev_mgmt/more-userprofile.html
+Stack Trace:
+#0 C:\xampp\htdocs\dev_mgmt\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
